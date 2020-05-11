@@ -1,0 +1,59 @@
+*{
+    font-family: 'Poppins';
+    margin: 0px;
+    padding: 0px;
+}
+.para{
+    padding: 0px;
+}
+.box{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    border: none;
+}
+.plus{
+    background-color: green;
+    color: white;
+    size: 100px;
+    border: 0px solid transparent;
+    border-bottom: grey;
+    padding: 7px;
+    border-radius: 10px ;
+    box-shadow: 0 4px 8px grey;
+}
+.myt{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+.mytask{
+    top:65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    background-color: green;
+    color: white;
+    padding: 5px;
+    width: 80%;
+    height: auto;
+    border-radius: 5px;
+    text-align: center;
+    text-align: center;
+}
+.ol:hover{
+    cursor: pointer;
+}
+.strike{
+    text-decoration: line-through;
+}
+.plus:hover{
+    cursor: pointer;
+    box-shadow: none;
+}
+.addtask{
+    border: 3px solid transparent;
+    border-bottom: 3px solid grey;
+}
